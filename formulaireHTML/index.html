@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!-- Balise principale-->
+<html>
+<!-- En-tête de la page -->
+<head>
+	<!-- Titre de la page -->
+	<title>  contact </title>
+	</head>
+	<!-- permet de lire un fichier CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- Corps de la page -->
+<body>
+	<center><a href="../index.html"title="retour"><img src="logo.png"></a></center>
+	<!--permet de grossir les titres-->
+	 <h1>Support </h1>
+	<from class="forumuler"action="/ma-page-de-traitement" method="post">
+		<!-- Balise générique de type block -->
+		<div>
+			<!-- Champ de formulaire (texte, mot de passe, case à cocher, bouton, etc.) -->
+			<label for=	"nom">Nom :</label>
+			<input type="text" id="nom" name="user_name">
+		</div>
+		
+		<div>
+			<label for="mail"> e-mail:</label>
+			<input type="email" id="mail" name="user_email">
+		</div>
+
+		<div>
+			<label for="message">Reclamation:</label>
+			<textarea id="message" name="user_message"></textarea>
+		</div>
+	<!-- Retour à la ligne -->
+<br>
+		
+	</from>
+    
+        <center><button type="button" class="btn btn-primary ">envoyer</button></center>
+
+	
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body>
+</html>

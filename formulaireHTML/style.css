@@ -1,0 +1,82 @@
+form {
+	 /* texte au milieu de la page */
+	 margin: 0 auto;
+	 width: 400px;
+	  /* contour du formulaire */
+	  padding: 1em;
+	  border: 1px solid #CCC;
+	  border-radius: 1em;
+}
+ div + div {
+	margin-top:1em;
+}
+
+label {
+	/* Pour des blocs de même taille et alignés */
+	display: inline-block;
+	width:  90px;
+	text-align: right;
+}
+input, textarea {
+	/* Pour s'assurer que tous les champs texte ont la même police.*/
+     font: 1em sans-serif;
+
+      /* Pour que tous les champs texte aient la même dimension */
+      width: 400px;
+      -moz-box-sizing: border-box;
+      	   box-sizing: border-box;
+      	   border-radius: 10px;
+
+      /* pour que les bordures des champs soient harmonieuses*/
+      border: 1px solid #2196f3;
+}
+
+input:focus, textarea:focus {
+	/* Pour souligner légèrement les éléments actifs */
+	border-color: #000;
+}
+
+textarea {
+	 
+	 vertical-align: top;
+
+	  /* Pour donner assez de place pour écrire du texte */
+	  height: 7em;
+
+
+	    /* Pour permettre aux utilisateurs de redimensionner un champ textuel horizontalement
+     Cela ne marche pas avec tous les navigateurs  */
+     resize: vertical;
+}
+
+
+	 
+}
+button {
+	 /* Cette marge supplémentaire représente grosso modo le même espace que celui
+     entre les étiquettes et les champs texte */
+     margin-left: 5em;
+    
+}
+
+img {
+	display: flex;
+	  
+
+}
+
+body {
+	text-align: center;
+	width: 100%;
+	height:700px;
+  background: transparent linear-gradient(0deg,#15526c 0,#54abbe 28%,#f99d2e 72%,#d95937 90%,#15526c 100%);
+}
+#message{
+	height: 300px;
+}
+input{
+	height: 30px;
+	border-radius: 10px;
+}
+
+
